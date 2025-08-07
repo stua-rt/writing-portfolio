@@ -1,0 +1,29 @@
+baseURL: "https://yourusername.github.io/"
+languageCode: "en-us"
+title: "Technical Writing Portfolio"
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+params:
+  homeInfoParams:
+    Title: "Hi, I'm Stuart Jaeckel"
+    Content: >
+      Welcome to my technical writing portfolio! 
+  
+  socialIcons:
+    - name: linkedin
+      title: View Source on Github
+      url: "https://linkedin.com/in/stuart-jaeckel"
+
+menu:
+  main:
+    - name: "Samples"
+      url: "/samples/"
+      weight: 1

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Technical Writing Portfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Technical Writing Portfolio</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Netwrix Samples</title>
+      <link>http://localhost:1313/samples/netwrix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/samples/netwrix/</guid>
+      <description>&lt;p&gt;These are some samples of my work for Netwrix&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
