@@ -1,6 +1,5 @@
 ---
 title: "Netwrix Links"
-Description: "xxx"
 weight: 1
 ---
 These are some samples of documentation I contributed to in my previous role working at Netwrix.  
