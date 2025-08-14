@@ -54,7 +54,7 @@ Finally, you can check the actual request that was sent to the server and the re
 
 By looking at the request, you can see that it was sent with the text having been URL-encoded. If you then select this encoded text, the original decoded text you inserted is shown on the Inspector panel on the right-hand side of the screen.
  
-![Example Response](/static/images/hackvertor.png)
+![Example Response](hackvertor.png)
 
 If you now look at the response, you see that it contains a list of table names that have been extracted from the database. You have therefore confirmed that the website is vulnerable to SQL injection. 
 
