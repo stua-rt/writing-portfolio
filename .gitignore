@@ -1,0 +1,14 @@
+# Hugo build outputs
+/public/
+/resources/_gen/
+
+# Hugo cache
+/.hugo_build.lock
+/.hugo_cache/
+
+# Windows OS files
+Thumbs.db
+Desktop.ini
+
+# VS Code files
+.vscode/

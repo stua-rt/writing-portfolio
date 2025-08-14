@@ -19,8 +19,11 @@ params:
   
   socialIcons:
     - name: linkedin
-      title: View Source on Github
+      title: Contact me on LinkedIn
       url: "https://linkedin.com/in/stuart-jaeckel"
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/stua-rt/writing-portfolio"
 
 menu:
   main:
