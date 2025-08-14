@@ -53,7 +53,7 @@ Before you start a workout, you can optionally customise the workout settings. T
 ## During Workout
 During the workout, as you walk your movement is tracked on the map. You can also see the time elapsed and your distance travelled at the bottom of the screen. To see more live stats, such as calories and pace, tap the grey bar on the bottom panel. You can then return to the map view by tapping the same bar again.
 
-![During Workout Screens](images/mapmywalk/during.png)
+![During Workout Screens](../images/mapmywalk/during.png)
  
 If you want to take a break, then you have the option to pause the workout. This temporarily stops the clock, so that the break period does not affect your workout stats. To pause the workout, tap the **PAUSE** button at the bottom of the screen. To then resume your workout, tap **RESUME**. 
 
@@ -77,11 +77,11 @@ When you have finished your walk, you need to end the workout. This saves all th
 ## View Results
 To access the results from your workout, first tap the right-hand icon at the bottom of the screen. This takes you to the DASHBOARD screen, which shows your total weekly performance.
 
-![Dashboard Screen](images/mapmywalk/dashboard.png)
+![Dashboard Screen](../images/mapmywalk/dashboard.png)
  
 To see the individual workout you just completed, tap the **WORKOUTS** tab.
 
-![Workouts Screen](images/mapmywalk/workouts.png)
+![Workouts Screen](../images/mapmywalk/workouts.png)
  
 Here you can see the workout by the name you chose previously. Tap on it to open the detailed view of the workout. This includes a stats summary, map of your walk, photos, pace and elevation analysis, and weather information.
 

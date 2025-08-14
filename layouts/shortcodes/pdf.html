@@ -1,15 +1,19 @@
-{{- $src := .Get 0 -}}
-{{- $page := .Get 1 | default "1" -}}
-{{- $zoom := .Get 2 | default "page-width" -}}
-{{- $mode := .Get 3 | default "none" -}}
+{{- $src := .Get "src" -}}
+{{- $page := .Get "page" | default "1" -}}
+{{- $zoom := .Get "zoom" | default "page-width" -}}
+{{- $mode := .Get "pagemode" | default "none" -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $height := .Get "height" | default "120%" -}}
 
-<div style="position:relative; padding-bottom:120%; height:0; overflow:hidden; max-width:100%;">
+{{ $pdfURL := printf "%s%s" .Site.BaseURL $src }}
+
+<div style="position:relative; padding-bottom:{{ $height }}; height:0; overflow:hidden; max-width:{{ $width }};">
   <iframe 
-    src="{{ $src | relURL }}#page={{ $page }}&zoom={{ $zoom }}&pagemode={{ $mode }}" 
+    src="{{ $pdfURL }}#page={{ $page }}&zoom={{ $zoom }}&pagemode={{ $mode }}" 
     style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;"
     frameborder="0">
       This browser does not support PDFs.
       Please download the PDF to view it:
-      <a href="{{ $src | relURL }}">Download PDF</a>.
+      <a href="{{ $pdfURL }}">Download PDF</a>.
   </iframe>
 </div>
