@@ -12,10 +12,15 @@ enableEmoji: true
 pygmentsUseClasses: true
 
 params:
+  
   homeInfoParams:
-    Title: "Hi, I'm Stuart Jaeckel"
-    Content: >
-      Welcome to my technical writing portfolio! 
+    Title: "Hello, I'm Stuart Jaeckel."
+    Content: |
+      **Welcome to my technical writing portfolio!**
+      Here you'll find a selection of writing samples that I hope showcase my writing skills. 
+      They include links to real work I've contributed to, demo articles I've created, and a research article I wrote at university. 
+
+      If you'd like to learn more about my experience or get in touch, please check out my LinkedIn profile below.
   
   socialIcons:
     - name: linkedin
